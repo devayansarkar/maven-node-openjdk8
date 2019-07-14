@@ -8,4 +8,6 @@ RUN apt-get install -y \
   openjdk-8-jdk \
   maven
 
+RUN java -version
+
 CMD /bin/bash 
